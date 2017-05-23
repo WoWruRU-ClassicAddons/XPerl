@@ -1,6 +1,8 @@
 ## Interface: 11200
 ## Title: X-Perl Party Frame by |cFFFF8080Zek|r
+## Title-ruRU: X-Perl |cffeda55fГруппа|r
 ## Notes: Replaces the default party frames.
+## Notes-ruRU: Заменяет стандартные фреймы группы.
 ## Notes-deDE: Ersetzt die Gruppenframes.
 ## Author: Zek
 ## RequiredDeps: XPerl

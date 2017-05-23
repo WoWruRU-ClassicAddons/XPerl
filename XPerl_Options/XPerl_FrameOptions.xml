@@ -7,6 +7,7 @@
 		<Script file="localization.deDE.lua"/>
         <Script file="localization.zhCN.lua"/>
         <Script file="localization.zhTW.lua"/>
+		<Script file="localization.ruRU.lua"/>
 
         <Frame name="XPerl_Frame_Title" virtual="true" hidden="false">
 		<Scripts>

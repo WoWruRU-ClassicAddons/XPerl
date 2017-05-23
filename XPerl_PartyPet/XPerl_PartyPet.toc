@@ -1,6 +1,8 @@
 ## Interface: 11200
 ## Title: X-Perl Party Pet Frame by |cFFFF8080Zek|r
+## Title-ruRU: X-Perl |cffeda55fПитомцы группы|r
 ## Notes: Replaces the default party's pet frames.
+## Notes-ruRU: Заменяет стандартные фреймы питомцев группы.
 ## Notes-deDE: Ersetzt die Gruppenbegleiterframes.
 ## Author: Zek
 ## RequiredDeps: XPerl, XPerl_Party

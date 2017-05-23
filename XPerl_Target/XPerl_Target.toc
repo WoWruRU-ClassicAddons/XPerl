@@ -1,6 +1,8 @@
 ## Interface: 11200
 ## Title: X-Perl Target Frame by |cFFFF8080Zek|r
+## Title-ruRU: X-Perl |cffeda55fЦель|r
 ## Notes: Replaces the default target frame.
+## Notes-ruRU: Заменяет стандартный фрейм цели.
 ## Notes-deDE: Ersetzt den Zielframe.
 ## Author: Zek
 ## RequiredDeps: XPerl

@@ -1,6 +1,8 @@
 ## Interface: 11200
 ## Title: X-Perl Raid Admin by |cFFFF8080Zek|r
+## Title-ruRU: X-Perl |cffeda55fРейд админ|r
 ## Notes: Provides useful raid admin tools for todays raid leader.
+## Notes-ruRU: Обеспечивает рейд лидера полезными инструментами рейд админа.
 ## Notes-deDE: Bietet Schlachtzugsleitern n�tzliche Einstellungsm�glichkeiten.
 ## Author: Zek
 ## SavedVariablesPerCharacter: XPerl_Admin, XPerl_CheckItems

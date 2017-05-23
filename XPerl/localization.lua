@@ -104,6 +104,88 @@ if ( GetLocale() == "frFR" ) then
 
 	XPERL_CANCEL	= "Annuler"
 end
+
+if ( GetLocale() == "ruRU" ) then
+-- Version : Russian ( by Maus )
+XPerl_ProductName	= "|cFFD00000X-Perl|r Фреймы Игроков"
+XPerl_Author		= "|cFFFF8080Zek|r"
+XPerl_Description       = XPerl_ProductName.." от "..XPerl_Author
+XPerl_VersionNumber     = "1.9.6"
+XPerl_Version		= XPerl_Description.." - "..XPerl_VersionNumber
+XPerl_LongDescription	= "Фреймы Игроков заменяются на новый вид Игроков, Питомцев, Группы, Цели, Целей Цели, Рейда"
+XPerl_ModMenuIcon	= "Interface\\Icons\\INV_Misc_Gem_Pearl_02"
+
+XPERL_COMMS_PREFIX	= "X-Perl"
+XPERL_MINIMAP_HELP1	= "|c00FFFFFFЛевый клик|r - опции (а также |c0000FF00перемещение фреймов|r)"
+XPERL_MINIMAP_HELP2	= "|c00FFFFFFПравый клик|r - перемещение иконки"
+
+-- Class name localization is not too important. The only time these strings
+-- are used is when the raid frame titles need to be shown when in class sort
+-- mode AND when no players of that class have been seen. X-Perl builds an
+-- internal list of WoW localised class names as they are encountered. The WoW
+-- api function UnitClass returns both the localized and english class name.
+XPERL_LOC_CLASS_WARRIOR	= "Воин"
+XPERL_LOC_CLASS_MAGE	= "Маг"
+XPERL_LOC_CLASS_ROGUE	= "Разбойник"
+XPERL_LOC_CLASS_DRUID	= "Друид"
+XPERL_LOC_CLASS_HUNTER	= "Охотник"
+XPERL_LOC_CLASS_SHAMAN	= "Шаман"
+XPERL_LOC_CLASS_PRIEST	= "Жрец"
+XPERL_LOC_CLASS_WARLOCK	= "Чернокнижник"
+XPERL_LOC_CLASS_PALADIN	= "Паладин"
+XPERL_LOC_CLASS_PETS	= "Питомцы"
+XPERL_TYPE_NOT_SPECIFIED = "Не указанно"
+XPERL_TYPE_CIVILIAN	= "Мирный житель"
+XPERL_TYPE_PET		= "Питомец"
+XPERL_TYPE_BOSS		= "Босс"
+XPERL_TYPE_RAREPLUS	= "Редкий+"
+XPERL_TYPE_ELITE	= "Элита"
+XPERL_TYPE_RARE		= "Редкий"
+
+XPERL_SPELL_SUNDER	= "Раскол брони"
+XPERL_SPELL_SHADOWV	= "Уязвимость к Тьме"
+XPERL_SPELL_FIREV	= "Уязвимость к огню"
+XPERL_SPELL_WINTERCH	= "Зимняя стужа"
+
+-- Status
+XPERL_LOC_DEAD		= "Мертвый"
+XPERL_LOC_GHOST		= "Дух"
+XPERL_LOC_FEIGNDEATH	= "Притворяется мертвым"
+XPERL_LOC_OFFLINE	= "Не в сети"
+XPERL_LOC_RESURRECTED	= "Воскрешаемый"
+XPERL_LOC_SS_AVAILABLE	= "Камень души доступен"
+XPERL_LOC_UPDATING	= "Обновляется"
+XPERL_LOC_ACCEPTEDRES	= "Принято"		-- Res accepted
+XPERL_RAID_GROUP	= "Группа %d"
+
+XPERL_OK		= "OK"
+XPERL_CANCEL		= "Отмена"
+
+XPERL_LOC_LARGENUMDIV	= 1000
+XPERL_LOC_LARGENUMTAG	= "K"
+
+BINDING_HEADER_XPERL = "X-Perl Назначение клавиш"
+BINDING_NAME_TOGGLERAID = "Окна рейда"
+BINDING_NAME_TOGGLERAIDSORT = "Сорт рейда по классам/группам"
+BINDING_NAME_TOGGLEOPTIONS = "Окно опций"
+BINDING_NAME_TOGGLEBUFFTYPE = "Баффы/Дебаффы/пусто"
+BINDING_NAME_TOGGLEBUFFCASTABLE = "Примен./Лечение"
+BINDING_NAME_TEAMSPEAKMONITOR = "Монитор Teamspeak'a"
+
+XPERL_KEY_NOTICE_RAID_BUFFANY = "Показ всех баффов/дебаффов"
+XPERL_KEY_NOTICE_RAID_BUFFCURECAST = "Показ только читаемые/исцеляющие баффы или дебаффы"
+XPERL_KEY_NOTICE_RAID_BUFFS = "Показ баффов рейда"
+XPERL_KEY_NOTICE_RAID_DEBUFFS = "Показ дебаффов рейда"
+XPERL_KEY_NOTICE_RAID_NOBUFFS = "Не показ баффов рейда"
+
+-- Usage
+XPerlUsageNameList	= {XPerl = "Основной", XPerl_Player = "Игрок", XPerl_PlayerPet = "Питомец", XPerl_Target = "Цель", XPerl_TargetTarget = "Цель цели", XPerl_Party = "Группа", XPerl_PartyPet = "Питомцы группы", XPerl_RaidFrames = "Фреймы рейда", XPerl_RaidHelper = "Помощник рейда", XPerl_RaidAdmin = "Рейд-админ", XPerl_TeamSpeak = "Монитор TS"}
+XPERL_USAGE_MEMMAX	= "UI Макс Пам: %d"
+XPERL_USAGE_MODULES	= "Модули: "
+XPERL_USAGE_NEWVERSION	= "*Новейшая версия"
+XPERL_USAGE_AVAILABLE	= "%s |c00FFFFFF%s|r доступна для скачивания"
+end
+
 if ( GetLocale() == "deDE") then
 	XPerl_LongDescription	= "UnitFrame Alternative f\195\188r ein neues Aussehen von Spieler, Begleiter, Gruppe, Ziel, Ziel des Ziels, Raid"
 
